@@ -1,0 +1,111 @@
+body{
+    background-color: #93bca6;
+    font-size: 16px;
+    color: white; 
+}
+
+nav > div.container {
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+#header-nav {
+    background-color: brown;
+    border-radius: 0;
+    border: 0;
+    border: black solid 3px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: 10px;
+}
+.navbar-brand h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    font-weight: bold;
+    color: white;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+
+#nav-list a{
+    text-align: center;
+    color: white ;
+}
+
+#nav-list a:hover{
+    background-color: rgb(191, 192, 188);
+}
+
+
+#nav-list{
+    margin: 0;
+}
+
+#collapsable-nav li {
+    border-bottom: solid 3px black;
+}
+
+/* BODY */
+
+#main-content{
+    margin: 0 auto 0;
+}
+.row .category{
+    background-color: rgb(98, 205, 224);
+    margin: 10px auto 10px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+p {
+    padding: 10px auto 10px;
+    color: white;
+}
+
+span.category-title{
+    padding-top: 15px;
+}
+
+/* MEDIA */
+
+@media (min-width: 992px){
+    div.container{
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    #main-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #collapsable-nav {
+        padding: 0;
+        border-top: solid 3px black;
+    }
+    
+}
